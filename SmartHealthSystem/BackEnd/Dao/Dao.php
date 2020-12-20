@@ -12,62 +12,62 @@ class Dao
     {
     }
 
-    public function insetDoctor(Doctor $doctor): bool
+    public function insetDoctor($doctor)
     {
 
     }
 
-    public function deleteDoctorById(int $id): bool
+    public function deleteDoctorById($id)
     {
 
     }
 
-    public function updateDoctorById(int $id, Doctor $doctor): bool
+    public function updateDoctorById($id, $doctor)
     {
 
     }
 
-    public function getDoctorById(int $id): Doctor
+    public function getDoctorById($id)
     {
 
     }
 
-    public function isDoctorFoundByEmail(string $email): bool
+    public function isDoctorFoundByEmail($email)
     {
 
     }
 
-    public function isDoctorFoundByEmailByPassword(string $email, string $password): bool
+    public function isDoctorFoundByEmailByPassword($email, $password)
     {
 
     }
 
-    public function getSpecializationNameById(int $specId): string
+    public function getSpecializationNameById($specId)
     {
 
     }
 
-    public function getAllDoctorsByIds(array $doctors): array
+    public function getAllDoctorsByIds($doctors)
     {
 
     }
 
-    public function getAllDoctorsIdsBySpecializationIds(array $specIds): array
+    public function getAllDoctorsIdsBySpecializationIds($specIds)
     {
 
     }
 
-    public function getAllDiseasesByIds(array $diseasesId): array
+    public function getAllDiseasesByIds($diseasesId)
     {
 
     }
 
-    public function getAllMatchingDiseaseIdsBySymptoms(array $symptomsIds): array
+    public function getAllMatchingDiseaseIdsBySymptoms($symptomsIds)
     {
 
     }
 
-    public function getAllSymptomsIdsBySearchKeys(array $keys): array
+    public function getAllSymptomsIdsBySearchKeys($keys)
     {
 
     }
