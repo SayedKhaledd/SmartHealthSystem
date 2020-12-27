@@ -100,7 +100,9 @@ const DropDown: React.FC<Props> = ({ className, placeholder, id }) => {
   }, []);
   const fetchDiseases = (diseases: Options[]) => {
     fetch(
-      `http://localhost:8080/getMatchingDiseases?symptoms=${selectedOptions?.join()} `
+      `http://localhost:8080/getMatchingDiseases?symptoms=${selectedOptions?.join(
+        "a"
+      )} `
     )
       .then((response) => response.json())
       .then((data) => {
